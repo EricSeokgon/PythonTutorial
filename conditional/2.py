@@ -1,8 +1,7 @@
 __author__ = 'sklee'
 input = 22
-real = 21
+real = 22
 if real == input:
     print("Hello!")
-
-if real != input:
+else:
     print("Who are you?")
