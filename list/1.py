@@ -45,7 +45,7 @@ a.append([5,6])
 print(a)
 
 #리스트 정렬(sort)
-a=[1, 4, 3, 2]
+a = [1, 4, 3, 2]
 a.sort()
 print(a)
 
@@ -56,5 +56,24 @@ print(a)
 #리스트 뒤집기(reverse)
 a = ['a', 'c', 'b']
 a.reverse()
+print(a)
+
+#위치 반환(index)
+a = [1,  2, 3]
+print(a.index(3))
+print(a.index(1))
+
+#리스트에 요소 삽입(insert)
+a = [1, 2, 3, 4]
+a.insert(0,4)
+print(a)
+
+#리스트의 수정 변경과 삭제
+a = [1,  2, 3]
+a[2] = 4
+print(a)
+
+print(a[1:2])
+a[1:2] = ['a', 'b', 'c']
 print(a)
 
