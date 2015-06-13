@@ -14,7 +14,7 @@ for mark in marks:
         print("%d번 학생은 불합격 입니다." %number)
 
 #for와 continue
-marks = [90, 25, 67, 45, 80]
+marks = [90, 25, 67, 45, 80, 50]
 number = 0
 for mark in marks:
     number = number + 1
