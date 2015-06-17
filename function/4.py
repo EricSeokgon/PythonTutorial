@@ -13,3 +13,16 @@ while 1:
     print(line)
 f.close()
 
+#readlines() 이용하는 방법
+
+f = open("새파일.txt", 'r')
+lines = f.readlines()
+for line in lines:
+ print(line)
+f.close()
+
+#read()를 이용하는방법
+f = open("새파일.txt",'r')
+data = f.read()
+print(data)
+f.close()
