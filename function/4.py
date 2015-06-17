@@ -5,3 +5,11 @@ line = f.readline()
 print(line)
 f.close()
 
+#모든 라인 읽어서 출력
+f = open("새파일.txt", 'r')
+while 1:
+    line = f.readline()
+    if not line: break
+    print(line)
+f.close()
+
