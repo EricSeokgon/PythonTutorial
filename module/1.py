@@ -1,3 +1,3 @@
 __author__ = 'sklee'
-import mod1
-    print(mod1.sum(3,4))
+import module.mod1
+print(module.mod1.sum(3,4))
