@@ -1,6 +1,6 @@
 __author__ = 'hadeslee'
 # modtest.py
-import mod2
+import module.mod2
 
-result = mod2.sum(3, 4)
+result = module.mod2.sum(3, 4)
 print(result)
