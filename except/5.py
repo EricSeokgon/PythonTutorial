@@ -1,6 +1,8 @@
 __author__ = 'sklee'
-class Eagle(Bird):
-    pass
+class Eagle():
+    def fly(self):
+        print("very fast")
+
 eagle = Eagle()
 eagle.fly()
 
