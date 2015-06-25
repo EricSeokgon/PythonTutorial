@@ -1,6 +1,6 @@
 __author__ = 'sklee'
-members = ['hadeslee', 'leezche', 'graphittie']
+members = ['hadeslee', 'leezche', 'graphittie', 'skee']
 i = 0
-while i < members.__len__():
+while i < len(members):
     print(members[i])
     i = i + 1
