@@ -5,7 +5,7 @@ class C1:
 
 class C2(C1):
     def m(self):
-        return 'child'
+        return super().m() + ' child'
     pass
 
 o = C2()
