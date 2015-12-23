@@ -7,6 +7,7 @@ print 4 + 5 * 6
 print 9 / 5
 print 9.0 / 5.0
 print 9 / 5.0
+print 4 * 7
 
 print "Hello"
 
@@ -15,8 +16,8 @@ b = "sklee"
 
 print a + b
 
-
 import sys
+
 print sys.version
 print
 print sys.version_info
