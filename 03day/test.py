@@ -11,3 +11,8 @@ print L[1:3]
 print
 print L + L
 print L * 3
+
+d = {'one': 1, 'two': 'dul', 'three': 'set', 'four': 'net'}
+print d.keys()
+print d.values()
+print d.items()
