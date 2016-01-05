@@ -26,3 +26,29 @@ print
 print t[0], t[1:3]
 print len(t)
 print 1 in t
+
+x, y, z = (1, 2, 3)
+print type(x), type(y), type(z)
+print x
+print y
+print z
+print
+
+x = 1
+y = 2
+x, y = y, x
+print x, y
+
+
+def calc(a, b):
+    return a + b, a * b
+
+
+x, y = calc(4, 5)
+print x
+print y
+
+print 'id : %s, name : %s' % ('sklee', 'seok gon')
+
+d = {'one:': 1, 'two': 2}
+print d.items()
