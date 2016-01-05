@@ -16,3 +16,13 @@ t1 = ()
 t2 = (1, 2, 3,)
 t3 = 1, 2, 3
 print type(t1), type(t2), type(t3)
+
+t = (1, 2, 3)
+print t * 2
+print t + ('PyKUG', 'users')
+print t
+print
+
+print t[0], t[1:3]
+print len(t)
+print 1 in t
