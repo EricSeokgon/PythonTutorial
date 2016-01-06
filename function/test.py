@@ -65,3 +65,10 @@ print a
 
 b = area(height=20, width=10)
 print b
+
+
+def varg(a, *arg):
+    print a, arg
+    print arg[0], arg[1]
+
+varg(2, 3, 4, 5, 6)
