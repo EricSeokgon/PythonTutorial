@@ -43,3 +43,14 @@ e = add(['list'], ['and', 'list'])
 print a
 print b
 print c
+
+
+def incr(a, step=1):
+    return a + step
+
+
+b = 1
+b = incr(b)
+print b
+b = incr(b, 10)
+print b
