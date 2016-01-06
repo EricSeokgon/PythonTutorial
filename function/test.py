@@ -54,3 +54,14 @@ b = incr(b)
 print b
 b = incr(b, 10)
 print b
+
+
+def area(height, width):
+    return height * width
+
+
+a = area(height='height string ', width=3)
+print a
+
+b = area(height=20, width=10)
+print b
