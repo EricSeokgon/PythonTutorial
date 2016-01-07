@@ -57,3 +57,12 @@ for x in X:
     y = f(x)
     Y.append(y)
 print Y
+
+X = [1, 2, 3, 4, 5]
+print map(lambda x: x * x, X)
+
+y = map(lambda x: len(x), ['Hello', 'Python', 'Promramming'])
+print y
+
+print filter(lambda x: x > 2, [1, 2, 3, 34])
+
