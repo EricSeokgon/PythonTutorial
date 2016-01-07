@@ -81,3 +81,10 @@ print filter(lambda x: x > 2, (1, 2, 3, 34))
 print filter(lambda x: x < 'a', 'abcABCdefDEF')
 
 print reduce(lambda x, y: x + y, [1, 2, 3, 4, 5])
+print reduce(lambda x, y: x + y, [1, 2, 3, 4, 5], 100)
+print reduce(lambda x, y: x + y * y, range(1, 11), 0)
+x = 0
+for y in range(1, 11):
+    x = x + y * y
+print x
+
