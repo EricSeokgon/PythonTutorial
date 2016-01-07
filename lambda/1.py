@@ -24,11 +24,36 @@ def f2(x):
 
 def g(func):
     return [func(x) for x in range(-10, 10)]
+
+
 print g(f1)
 print g(f2)
 
 
 def g(func):
     return [func(x) for x in range(-10, 10)]
+
+
 print g(lambda x: x * x + 3 * x - 10)
 print g(lambda x: x * x * x)
+
+
+def f(x):
+    return x * x
+
+
+X = [1, 2, 3, 4, 5]
+Y = map(f, X)
+print Y
+
+
+def f(x):
+    return x * x
+
+
+X = [1, 2, 3, 4, 5]
+Y = []
+for x in X:
+    y = f(x)
+    Y.append(y)
+print Y
