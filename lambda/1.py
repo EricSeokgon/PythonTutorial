@@ -88,3 +88,4 @@ for y in range(1, 11):
     x = x + y * y
 print x
 
+print reduce(lambda x, y: y + x, 'abcde')
