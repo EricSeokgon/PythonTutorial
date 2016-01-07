@@ -66,3 +66,4 @@ print y
 
 print filter(lambda x: x > 2, [1, 2, 3, 34])
 
+print filter(lambda x: x % 2 - 1, [1, 2, 3, 4, 5, 6])
