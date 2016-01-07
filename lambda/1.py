@@ -67,3 +67,15 @@ print y
 print filter(lambda x: x > 2, [1, 2, 3, 34])
 
 print filter(lambda x: x % 2 - 1, [1, 2, 3, 4, 5, 6])
+
+
+def F():
+    x = 1
+    print filter(lambda a: a > x, range(-5, 5))
+
+
+F()
+
+print filter(lambda x: x > 2, [1, 2, 3, 34])
+print filter(lambda x: x > 2, (1, 2, 3, 34))
+print filter(lambda x: x < 'a', 'abcABCdefDEF')
