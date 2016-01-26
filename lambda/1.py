@@ -89,3 +89,25 @@ for y in range(1, 11):
 print x
 
 print reduce(lambda x, y: y + x, 'abcde')
+
+print 4/2.0*2**3
+
+s=[1,2,3]
+t=[10,s,30]
+u=[100,200,t]
+print u[2][1][2]
+
+t=(1,2)
+t*2
+t+(3,4)
+print t
+
+print bool([()])
+
+
+for x in range(10):
+    if x<7:
+        continue
+    print x
+print 'done'
+
